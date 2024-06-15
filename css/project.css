@@ -1,0 +1,119 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.projectContainer {
+  margin: 0 200px;
+
+}
+
+.singleProject {
+  padding: 20px;
+  border: 1px solid #80808090;
+  margin: 10px 0 50px 0;
+  border-radius: 30px;
+}
+
+.textDetails {
+  padding: 20px 0 30px 0;
+}
+
+
+.textDetails h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.textDetails p {
+  color: gray;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.projectLink {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.projectLink .github {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+  margin-top: 30px;
+}
+
+.projectLink .github:hover {
+  background-color: #000000c9;
+  color: white;
+}
+
+
+.projectLink .live {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+  margin-top: 30px;
+}
+
+.projectLink .live:hover {
+  color: white;
+  background-color: black;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  .projectContainer {
+    margin: 0 10px;
+
+  }
+
+  .projectLink {
+    gap: 5px;
+  }
+
+  .projectLink .github {
+    font-size: 10px;
+    padding: 5px 10px;
+
+  }
+
+  .textDetails p {
+    font-size: 15px;
+  }
+
+
+  .projectLink .live {
+    font-size: 10px;
+    padding: 5px 10px;
+
+  }
+
+}
+
+
+@media only screen and (min-width: 755px) and (max-width: 1099px) {
+
+  .projectContainer {
+    margin: 0 100px;
+
+  }
+
+  .projectLink {
+    gap: 30px;
+  }
+}

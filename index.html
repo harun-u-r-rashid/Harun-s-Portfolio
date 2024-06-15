@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harun's Portfolio</title>
+
+        <!-- fontawesom -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <!-- google fonts -->
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        </style>
+
+        <!-- swiffy slider -->
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+                crossorigin="anonymous" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+                crossorigin="anonymous">
+
+
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+
+        <!-- Internal link -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="css/profile.css">
+
+        <link rel="stylesheet" href="css/about.css">
+
+        <link rel="stylesheet" href="css/project.css">
+
+        <link rel="stylesheet" href="css/skill.css">
+
+        <link rel="stylesheet" href="css/contact.css">
+
+        <link rel="stylesheet" href="css/responsive.css">
+
+
+
+
+</head>
+
+<body>
+
+        <nav id="pcNav">
+                <div class="navTitle">Harun</div>
+                <div>
+                        <ul class="navLinks">
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#experience">Skill</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                        </ul>
+                </div>
+
+        </nav>
+        <nav id="resNav">
+                <div class="navTitle">Harun</div>
+                <div class="resMenu">
+                        <div class="resIcon" onclick="toggleMenu()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                        </div>
+                        <div class="menuLinks">
+                                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                                <li><a href="#experience" onclick="toggleMenu()">Skill</a></li>
+                                <li><a href="#projectSection" onclick="toggleMenu()">Projects</a></li>
+                                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                        </div>
+                </div>
+        </nav>
+
+        <main>
+
+                <section id="profile">
+                        <div class="profileImage">
+                                <img src="images/profile.png" alt="" />
+                        </div>
+                        <div class="profileText">
+                                <p class="p1">Hello, I'm</p>
+                                <h1 class="nameTitle">Harunur Rashid</h1>
+                                <p class="p2">Backend Developer</p>
+                                <div class="btnContainer">
+                                        <button class="cvBtn" onclick="window.open('#')">
+                                                Download CV
+                                        </button>
+                                        <button class="contactBtn" onclick="location.href='#'">
+                                                Contact Info
+                                        </button>
+                                </div>
+                                <div id="socialsContainer">
+                                        <a class="icon" onclick="location.href='https://linkedin.com/'"> <i
+                                                        class="fa-brands fa-linkedin"></i></a>
+
+                                        <a class="icon" onclick="location.href='https://github.com/'"> <i
+                                                        class="fa-brands fa-github"></i>
+                                        </a>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="aboutSection">
+
+                        <h3 class="sectionTitleOne">know more</h3>
+                        <h3 class="sectionTitleTwo">about me</h3>
+
+                        <div class="aboutContainer">
+                                <div class="details">
+                                        <h3># Biography #</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci
+                                                aperiam voluptatum. Placeat repellendus, nam magni error fugiat
+                                                voluptate rerum accusantium et aspernatur voluptas beatae laborum facere
+                                                temporibus, harum pariatur qui. Quidem sunt repellendus provident fugiat
+                                                neque dignissimos officiis tempore voluptate quam consequuntur alias,
+                                                odit adipisci doloremque! Sequi ad fugit eaque temporibus doloribus
+                                                animi ea nam repellat quasi recusandae exercitationem incidunt, nostrum
+                                        </p>
+
+                                        <!-- <button class="cvBtn" onclick="window.open('#')">
+                                                Download CV
+                                        </button> -->
+                                </div>
+
+                                <div class="details">
+                                        <h3># Personal Details #</h3>
+
+                                        <div class="singleDetails">
+                                                <h1>Name: </h1>
+                                                <h2>Harunur Rashid</h2>
+                                        </div>
+                                        <div class="singleDetails">
+                                                <h1>Address: </h1>
+                                                <h2>Rajshahi</h2>
+                                        </div>
+                                        <div class="singleDetails">
+                                                <h1>Study: </h1>
+                                                <h2>Rajshahi University of Engineering and Technology</h2>
+                                        </div>
+
+                                        <div class="singleDetails">
+                                                <h1>Degree: </h1>
+                                                <h2>Glass and Ceramic Engineering</h2>
+                                        </div>
+
+                                        <div class="singleDetails">
+                                                <h1>Mail: </h1>
+                                                <h2>hr100756@gmail.com</h2>
+                                        </div>
+
+                                        <div class="singleDetails">
+                                                <h1>Phone: </h1>
+                                                <h2>+880 1609480869</h2>
+                                        </div>
+
+
+
+
+
+                                </div>
+                        </div>
+
+                </section>
+
+                <section class="skillSection">
+                        <h3 class="sectionTitleOne">view my</h3>
+                        <h3 class="sectionTitleTwo">skills</h3>
+
+                        <div class="skillContainer">
+                                <h2># prgramming language #</h2>
+                                <div class="skillContent">
+                                        <div class="singleSkill">
+                                                <img src="images/skill/c.png" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+                                        <div class="singleSkill">
+                                                <img src="images/skill/c++.png" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+
+                                        <div class="singleSkill">
+                                                <img src="images/skill/python.png" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+
+                                </div>
+
+                                <h2># backend developmment #</h2>
+                                <div class="skillContent">
+                                        <div class="singleSkill">
+                                                <img src="images/skill/django.jpeg" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+
+                                        <div class="singleSkill">
+                                                <img src="images/skill/drf.png" alt="">
+                                                <h1>competent</h1>
+                                        </div>
+
+                                        <div class="singleSkill">
+                                                <img src="images/skill/sql.png" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+
+                                </div>
+
+                                <h2># frontend development #</h2>
+                                <div class="skillContent">
+                                        <div class="singleSkill">
+                                                <img src="images/skill/html.png" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+
+                                        <div class="singleSkill">
+                                                <img src="images/skill/css.png" alt="">
+                                                <h1>intermediate</h1>
+                                        </div>
+
+                                        <div class="singleSkill">
+                                                <img src="images/skill/js.png" alt="">
+                                                <h1>basic</h1>
+                                        </div>
+
+                                </div>
+                        </div>
+
+
+
+                </section>
+
+                <section class="projectSection">
+
+                        <h3 class="sectionTitleOne">browse my</h3>
+                        <h3 class="sectionTitleTwo">projects</h3>
+
+                        <div class="projectContainer">
+                                <div class="singleProject">
+                                        <div class="projectImage">
+                                                <div class="swiffy-slider slider-item-reveal slider-nav-round slider-item-ratio slider-item-ratio-21x9"
+                                                        id="slider1">
+                                                        <ul class="slider-container">
+                                                                <li><img src="images/projectOne/one.png" loading="lazy"
+                                                                                alt="..."></li>
+                                                                <li><img src="images/projectOne/two.png" loading="lazy"
+                                                                                alt="..."></li>
+
+                                                                <li><img src="images/projectOne/three.png"
+                                                                                loading="lazy" alt="..."></li>
+
+                                                                <li><img src="images/projectOne/four.png" loading="lazy"
+                                                                                alt="..."></li>
+
+
+                                                        </ul>
+
+                                                        <button type="button" class="slider-nav"
+                                                                aria-label="Go left"></button>
+                                                        <button type="button" class="slider-nav slider-nav-next"
+                                                                aria-label="Go left"></button>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-square d-none d-md-flex">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-sm slider-indicators-dark slider-indicators-round d-md-none slider-indicators-highlight">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="textDetails">
+
+                                                <h3>Learn Academy</h3>
+                                                <p>
+
+                                                        This project is an online learning academy developed using a
+                                                        combination of modern web technologies. The backend is built
+                                                        with Django REST Framework and Python, leveraging SQLite as the
+                                                        database. The frontend is crafted with HTML, CSS, and JavaScript
+                                                        to ensure a smooth and interactive user experience.
+
+
+
+                                                </p>
+
+                                                <div class="projectLink">
+
+                                                        <a class="github" target="_blank"
+                                                                href="https://github.com/harun-u-r-rashid/Learn-Academy">BACKEND
+                                                                GITHUB</a>
+                                                        <a class="github" target="_blank"
+                                                                href="https://github.com/harun-u-r-rashid/Learn-Academy-FrontEnd">FRONTEND
+                                                                GITHUB</a>
+                                                        <a class="live" target="_blank"
+                                                                href="https://shikboacademy.netlify.app/">LIVE DEMO</a>
+                                                </div>
+
+
+
+
+                                        </div>
+
+
+
+                                </div>
+
+                                <div class="singleProject">
+                                        <div class="projectImage">
+                                                <div class="swiffy-slider slider-item-reveal slider-nav-round slider-item-ratio slider-item-ratio-21x9"
+                                                        id="slider1">
+                                                        <ul class="slider-container">
+                                                                <li><img src="images/khana store/one.jpg" loading="lazy"
+                                                                                alt="..."></li>
+                                                                <li><img src="images/khana store/two.jpg" loading="lazy"
+                                                                                alt="..."></li>
+
+                                                                <li><img src="images/khana store/three.jpg"
+                                                                                loading="lazy" alt="..."></li>
+
+                                                                <li><img src="images/khana store/four.jpg"
+                                                                                loading="lazy" alt="..."></li>
+
+                                                                <li><img src="images/khana store/five.jpg"
+                                                                                loading="lazy" alt="..."></li>
+
+
+                                                        </ul>
+
+                                                        <button type="button" class="slider-nav"
+                                                                aria-label="Go left"></button>
+                                                        <button type="button" class="slider-nav slider-nav-next"
+                                                                aria-label="Go left"></button>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-square d-none d-md-flex">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-sm slider-indicators-dark slider-indicators-round d-md-none slider-indicators-highlight">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="textDetails">
+
+                                                <h3>Khana Store</h3>
+                                                <p>
+                                                        This is a online project for restaurant management system. This
+                                                        project is developed by django rest framework, python and SQLite
+                                                        in backend part and used html, css and js for frontend part.
+                                                </p>
+
+                                                <div class="projectLink">
+                                                        <a class="github" target="_blank"
+                                                                href="https://github.com/harun-u-r-rashid/khanaStore">BACKEND
+                                                                GITHUB</a>
+                                                        <a class="github" target="_blank"
+                                                                href="https://github.com/harun-u-r-rashid/khanaStore_frontEnd">FRONTEND
+                                                                GITHUB</a>
+                                                        <a class="live" target="_blank"
+                                                                href="https://khanastore.netlify.app/">LIVE DEMO</a>
+                                                </div>
+
+
+
+
+                                        </div>
+
+
+
+                                </div>
+
+                                <div class="singleProject">
+                                        <div class="projectImage">
+                                                <div class="swiffy-slider slider-item-reveal slider-nav-round slider-item-ratio slider-item-ratio-21x9"
+                                                        id="slider1">
+                                                        <ul class="slider-container">
+                                                                <li><img src="images/men's store/one.jpg" loading="lazy"
+                                                                                alt="..."></li>
+                                                                <li><img src="images/men's store/two.jpg" loading="lazy"
+                                                                                alt="..."></li>
+                                                                <li><img src="images/men's store/three.jpg"
+                                                                                loading="lazy" alt="..."></li>
+                                                                <li><img src="images/men's store/four.jpg"
+                                                                                loading="lazy" alt="..."></li>
+
+                                                        </ul>
+
+                                                        <button type="button" class="slider-nav"
+                                                                aria-label="Go left"></button>
+                                                        <button type="button" class="slider-nav slider-nav-next"
+                                                                aria-label="Go left"></button>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-square d-none d-md-flex">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-sm slider-indicators-dark slider-indicators-round d-md-none slider-indicators-highlight">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="textDetails">
+
+                                                <h3>Men's online store</h3>
+                                                <p>
+                                                        This project is an online store specifically for men,
+                                                        designed to offer a seamless and enjoyable shopping experience.
+                                                        The backend is built using Django's MVT (Model-View-Template)
+                                                        , leveraging Python and SQLite to manage data
+                                                        efficiently. The frontend is
+                                                        crafted with HTML, CSS. This technology allowing users to
+                                                        browse, select,
+                                                        and purchase products with ease.
+                                                </p>
+
+                                                <div class="projectLink">
+                                                        <a class="github" target="_blank"
+                                                                href="https://github.com/harun-u-r-rashid/Men-s-Store">GITHUB</a>
+                                                        <a class="live" target="_blank"
+                                                                href="https://mens-online-store.onrender.com/">LIVE
+                                                                DEMO</a>
+                                                </div>
+
+
+
+
+                                        </div>
+
+
+
+                                </div>
+
+                                <div class="singleProject">
+                                        <div class="projectImage">
+                                                <div class="swiffy-slider slider-item-reveal slider-nav-round slider-item-ratio slider-item-ratio-21x9"
+                                                        id="slider1">
+                                                        <ul class="slider-container">
+                                                                <li><img src="images/portfolio/one.jpg" loading="lazy"
+                                                                                alt="..."></li>
+                                                                <li><img src="images/portfolio/two.jpg" loading="lazy"
+                                                                                alt="..."></li>
+
+                                                                <li><img src="images/portfolio/three.jpg" loading="lazy"
+                                                                                alt="..."></li>
+
+                                                                <li><img src="images/portfolio/four.jpg" loading="lazy"
+                                                                                alt="..."></li>
+
+
+                                                        </ul>
+
+                                                        <button type="button" class="slider-nav"
+                                                                aria-label="Go left"></button>
+                                                        <button type="button" class="slider-nav slider-nav-next"
+                                                                aria-label="Go left"></button>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-square d-none d-md-flex">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+
+                                                        <div
+                                                                class="slider-indicators slider-indicators-sm slider-indicators-dark slider-indicators-round d-md-none slider-indicators-highlight">
+                                                                <button class="" aria-label="Go to slide"></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide" class=""></button>
+                                                                <button aria-label="Go to slide"
+                                                                        class="active"></button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="textDetails">
+
+                                                <h3>Portfolio</h3>
+                                                <p>
+                                                        This project is a personal portfolio website designed to
+                                                        showcase my skills, projects and blogs. The
+                                                        backend is developed using Django's MVT (Model-View-Template)
+                                                        architecture, with Python and SQLite ensuring efficient data
+                                                        handling and storage. For the frontend, I utilized HTML, CSS.
+                                                </p>
+
+                                                <div class="projectLink">
+                                                        <a class="github" target="_blank"
+                                                                href="https://github.com/harun-u-r-rashid/portfolioProject">GITHUB</a>
+                                                        <a class="live" target="_blank"
+                                                                href="https://portfolio-80xk.onrender.com/">LIVE
+                                                                DEMO</a>
+                                                </div>
+
+
+
+
+                                        </div>
+
+
+
+                                </div>
+
+
+                        </div>
+
+
+                </section>
+
+                <section class="contactSection">
+                        <h3>##get in touch</h3>
+
+                        <div class="contactDetails">
+
+                                <div class="singleContact">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h1>Talaimari, Rajshahi</h1>
+                                </div>
+
+                                <div class="singleContact">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <h1>+880 1609480869</h1>
+
+                                </div>
+
+                                <div class="singleContact">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <h1>hr100756@gmail.com</h1>
+
+
+                                </div>
+
+                                <div class="singleContact">
+                                        <i class="fa-brands fa-rocketchat"></i>
+
+                                        <div class="icons">
+
+                                                <a href="https://www.facebook.com/"><i
+                                                                class="fa-brands fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/"><i
+                                                                class="fa-brands fa-instagram"></i></a>
+
+                                        </div>
+
+                                </div>
+
+                        </div>
+
+                        <form action="">
+
+                                <div class="nameEmail">
+                                        <input type="text" placeholder="Name" required>
+                                        <input type="email" placeholder="Email" required>
+
+                                </div>
+
+                                <div class="message">
+                                        <textarea name="" id="">Message</textarea>
+
+                                </div>
+                                <div class="messageBtn">
+                                        <button>send message</button>
+                                </div>
+
+
+                        </form>
+
+                        <div class="map">
+
+
+
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.5095000748906!2d88.62580237547813!3d24.363573164960098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefd0a55ea957%3A0x2f9cac3357d62617!2sRajshahi%20University%20of%20Engineering%20%26%20Technology(RUET)!5e0!3m2!1sen!2sbd!4v1718430675627!5m2!1sen!2sbd"
+                                        width="1261" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+
+                </section>
+
+
+        </main>
+
+
+        <hr>
+        <footer>
+                <h1>&copy COPYRIGHT || HARUNUR RASHID</h1>
+        </footer>
+
+
+
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>

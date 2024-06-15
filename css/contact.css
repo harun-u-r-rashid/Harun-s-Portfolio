@@ -1,0 +1,181 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.contactSection {
+        margin: 0 200px;
+        padding: 20px;
+}
+
+.contactSection h3 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 30px;
+        color: rgb(102, 94, 94);
+        font-weight: 500;
+}
+
+.contactDetails {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+}
+
+.singleContact {
+        border: 1px solid gray;
+        align-items: center;
+        text-align: center;
+        padding: 25px 40px;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.singleContact i {
+        font-size: 20px;
+}
+
+.singleContact h1 {
+        font-size: 16px;
+        font-weight: normal;
+}
+
+.singleContact .icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+}
+
+.singleContact .icons a i {
+        border: 1px solid gray;
+        color: gray;
+        padding: 5px;
+        font-size: 12px;
+}
+
+.contactSection form {
+        margin: 50px 0;
+}
+
+.nameEmail {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+}
+
+.nameEmail input {
+        width: calc(50% - 10px);
+        min-width: 200px;
+        height: 40px;
+        padding: 3px 10px;
+}
+
+.message {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+}
+
+.message textarea {
+        width: 100%;
+        max-width: 900px;
+        height: 80px;
+        padding: 3px 10px;
+}
+
+.messageBtn {
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+}
+
+.messageBtn button {
+        padding: 10px 15px;
+        font-size: 18px;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        color: black;
+        background: transparent;
+        border: 2px solid gray;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+}
+
+.messageBtn button::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        transition: top 0.5s ease-in-out;
+        z-index: -1;
+}
+
+.messageBtn button:hover::before {
+        top: 0;
+}
+
+.messageBtn button:hover {
+        color: white;
+}
+
+.map {
+        margin-top: 50px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding-top: 56.25%;
+}
+
+.map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 0;
+}
+
+
+footer {
+        padding: 10px 0;
+}
+
+footer h1 {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+}
+
+hr{
+        margin: auto 200px;  
+}
+
+
+
+@media only screen and (max-width: 1099px) {
+        .contactSection {
+                margin: 0 50px;
+        }
+
+        .singleContact {
+                width: 100%;
+                padding: 15px;
+        }
+}
+
+@media only screen and (max-width: 680px) {
+        .contactSection {
+                margin: 0 20px;
+        }
+
+        .nameEmail input {
+                width: 100%;
+        }
+}

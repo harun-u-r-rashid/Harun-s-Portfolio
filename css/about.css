@@ -1,0 +1,176 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.aboutSection {
+  padding: 50px 0;
+
+}
+
+.sectionTitleOne {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #0000007e;
+
+
+}
+
+.sectionTitleTwo {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000ad;
+
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 200px;
+  padding: 10px;
+  gap: 150px;
+}
+
+
+
+.details {
+  width: 500px;
+  padding: 20px;
+}
+
+.details h3 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+
+}
+
+.details p {
+  font-size: 15px;
+  color: gray;
+  padding: 8px;
+  letter-spacing: 1px;
+}
+
+
+.singleDetails {
+  display: flex;
+  padding: 5px;
+}
+
+
+.singleDetails h1 {
+  font-size: 16px;
+  width: 100px;
+  color: gray;
+  font-weight: 500;
+}
+
+
+.singleDetails h2 {
+  font-size: 14px;
+  color: gray;
+  font-weight: normal;
+
+}
+
+@media only screen and (max-width: 680px) {
+  .aboutSection {
+    padding: 50px 0;
+
+  }
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 5px;
+    align-items: center;
+  }
+
+}
+
+
+@media only screen and (min-width: 680px) and (max-width: 1099px) {
+
+  .aboutContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 100px;
+    padding: 10px;
+    gap: 100px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1345px) {
+
+  .aboutSection {
+    padding: 50px 0;
+
+  }
+
+
+
+  .aboutContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    padding: 10px;
+    gap: 50px;
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 680px) and (max-width: 1136px) {
+
+  .aboutSection {
+    padding: 50px 0;
+
+  }
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 50px;
+    padding: 10px;
+    gap: 50px;
+    align-items: center;
+  }
+
+}
+
+
+@media only screen and (max-width: 1540px) {
+
+  .aboutSection {
+    padding: 50px 0;
+
+  }
+
+  .aboutContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 100px;
+    padding: 10px;
+    gap: 100px;
+  }
+
+
+}

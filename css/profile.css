@@ -1,0 +1,122 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        height: 80vh;
+}
+
+.profileImage {
+        display: flex;
+        height: 400px;
+        width: 400px;
+        margin: auto 0;
+}
+
+.profileText {
+        align-self: center;
+        text-align: center;
+}
+
+
+
+.profileText .p1 {
+        text-align: center;
+        font-weight: 600;
+}
+
+.profileText .p2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+}
+
+.nameTitle {
+        font-size: 3rem;
+        text-align: center;
+}
+
+#socialsContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+}
+
+/* ICONS */
+
+#socialsContainer .icon i {
+        font-size: 35px;
+        border-radius: 50%;
+
+
+}
+
+/* BUTTONS */
+
+
+.btnContainer {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+}
+
+.btnContainer button {
+
+        font-size: 12px;
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem;
+}
+.cvBtn{
+        font-size: 12px;
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem; 
+}
+
+.cvBtn,
+.contactBtn {
+        border: #353535 0.1rem solid;
+}
+
+.cvBtn:hover,
+.contactBtn:hover {
+        cursor: pointer;
+}
+
+.cvBtn,
+.contactBtn:hover {
+        background: rgb(53, 53, 53);
+        color: white;
+}
+
+.cvBtn:hover {
+        background: rgb(0, 0, 0);
+}
+
+.contactBtn {
+        background: none;
+}
+
+.contactBtn:hover {
+        border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btnCntainer {
+        gap: 1rem;
+}

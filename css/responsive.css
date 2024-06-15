@@ -1,0 +1,56 @@
+@media screen and (max-width: 1400px) {
+        #profile {
+                height: 83vh;
+                margin-bottom: 6rem;
+        }
+}
+
+@media screen and (max-width: 1200px) {
+        #pcNav {
+                display: none;
+        }
+
+        #resNav {
+                display: flex;
+        }
+
+        #profile {
+                display: block;
+        }
+
+        .profileImage {
+                width: 275px;
+                height: 275px;
+                margin: 50px auto 2rem;
+        }
+
+}
+
+@media screen and (max-width: 600px) {
+        #profile {
+                height: 83vh;
+                margin-bottom: 0;
+        }
+
+        .navLinks li a {
+                font-size: 1rem;
+        }
+
+        .profileTitle {
+                font-size: 1.5rem;
+        }
+
+        .navLinks {
+                flex-direction: column;
+                gap: 0.5rem;
+                text-align: center;
+        }
+
+        .profileImage {
+                width: auto;
+                height: 46vw;
+                justify-content: center;
+        }
+
+
+}
