@@ -7,17 +7,20 @@
   padding: 0;
 }
 
-
+.projectSection{
+  padding: 20px 0;
+  background-color: rgba(87, 70, 102, 0.948);
+}
 .projectContainer {
   margin: 0 200px;
 
 }
-
 .singleProject {
   padding: 20px;
-  border: 1px solid #80808090;
-  margin: 10px 0 50px 0;
+  border: 1px solid #808080a1;
+  margin: 10px 0 30px 0;
   border-radius: 30px;
+  background-color: rgba(87, 70, 102, 0.171);
 }
 
 .textDetails {
@@ -26,12 +29,12 @@
 
 
 .textDetails h3 {
-  color: black;
+  color: #C4B16F;
   font-weight: 600;
 }
 
 .textDetails p {
-  color: gray;
+  color:white;
   margin: 10px 0;
   font-size: 17px;
 }
@@ -50,7 +53,7 @@
   background-color: black;
   border-radius: 30px;
   transition: all 0.5s ease-in-out;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .projectLink .github:hover {
@@ -66,7 +69,8 @@
   color: black;
   border-radius: 30px;
   transition: all 0.5s ease-in-out;
-  margin-top: 30px;
+  margin-top: 10px;
+  background-color: white;
 }
 
 .projectLink .live:hover {

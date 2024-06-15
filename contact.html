@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harun's Portfolio</title>
+
+        <!-- fontawesom -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <!-- google fonts -->
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        </style>
+
+        <!-- swiffy slider -->
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+                crossorigin="anonymous" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+                crossorigin="anonymous">
+
+
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+
+        <!-- Internal link -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="css/profile.css">
+
+        <link rel="stylesheet" href="css/about.css">
+
+        <link rel="stylesheet" href="css/project.css">
+
+        <link rel="stylesheet" href="css/skill.css">
+
+        <link rel="stylesheet" href="css/contact.css">
+
+        <link rel="stylesheet" href="css/responsive.css">
+
+
+
+
+</head>
+
+<body>
+
+        <nav id="pcNav">
+                <div class="navTitle">
+                        <img src="images/portfolio.png" alt="">
+                </div>
+                <div>
+                        <ul class="navLinks">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="skill.html">Skill</a></li>
+                                <li><a href="project.html">Projects</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                </div>
+
+        </nav>
+
+        <nav id="resNav">
+                <div class="navTitle">
+                        <img src="images/portfolio.png" alt="">
+                </div>
+                <div class="resMenu">
+                        <div class="resIcon" onclick="toggleMenu()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                        </div>
+                        <div class="menuLinks">
+                                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                                <li><a href="skill.html" onclick="toggleMenu()">Skill</a></li>
+                                <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+                                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+                        </div>
+                </div>
+        </nav>
+
+        <main>
+
+
+                <section class="contactSection">
+                        <h3 class="sectionTitleTwo">get in touch</h3>
+
+
+                        <div class="contactContainer">
+                                <div class="contactDetails">
+
+                                        <div class="singleContact">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <h1>Talaimari, Rajshahi</h1>
+                                        </div>
+        
+                                        <div class="singleContact">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <h1>+880 1609480869</h1>
+        
+                                        </div>
+        
+                                        <div class="singleContact">
+                                                <i class="fa-solid fa-envelope"></i>
+                                                <h1>hr100756@gmail.com</h1>
+        
+        
+                                        </div>
+        
+                                        <div class="singleContact">
+                                                <i class="fa-brands fa-rocketchat"></i>
+        
+                                                <div class="icons">
+        
+                                                        <a href="https://www.facebook.com/"><i
+                                                                        class="fa-brands fa-facebook"></i></a>
+                                                        <a href="https://www.instagram.com/"><i
+                                                                        class="fa-brands fa-instagram"></i></a>
+        
+                                                </div>
+        
+                                        </div>
+        
+                                </div>
+        
+                                <form action="">
+                                        <h3>drop your line</h3>
+        
+                                        <div class="nameEmail">
+                                                <input type="text" placeholder="Name" required>
+                                                <input type="email" placeholder="Email" required>
+        
+                                        </div>
+        
+                                        <div class="message">
+                                                <textarea name="Message" id="" placeholder="Message"></textarea>
+        
+                                        </div>
+                                        <div class="messageBtn">
+                                                <button>hello!</button>
+                                        </div>
+        
+        
+                                </form>
+        
+                                <div class="map">
+        
+        
+        
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.5095000748906!2d88.62580237547813!3d24.363573164960098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefd0a55ea957%3A0x2f9cac3357d62617!2sRajshahi%20University%20of%20Engineering%20%26%20Technology(RUET)!5e0!3m2!1sen!2sbd!4v1718430675627!5m2!1sen!2sbd"
+                                                width="1261" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                                </div>
+
+                        </div>
+
+                       
+
+                </section>
+
+
+        </main>
+
+
+        <hr>
+        <footer>
+                <h1>&copy COPYRIGHT || HARUNUR RASHID</h1>
+        </footer>
+
+
+
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>

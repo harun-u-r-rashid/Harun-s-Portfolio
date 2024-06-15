@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
         #profile {
-                height: 83vh;
+                height: 75vh;
                 margin-bottom: 6rem;
         }
 }
@@ -21,14 +21,15 @@
         .profileImage {
                 width: 275px;
                 height: 275px;
-                margin: 50px auto 2rem;
+                margin: 0px auto 2rem;
+                padding-top: 30px;
         }
 
 }
 
 @media screen and (max-width: 600px) {
         #profile {
-                height: 83vh;
+                height: 75vh;
                 margin-bottom: 0;
         }
 
@@ -42,7 +43,7 @@
 
         .navLinks {
                 flex-direction: column;
-                gap: 0.5rem;
+                gap: 1rem;
                 text-align: center;
         }
 
@@ -51,6 +52,4 @@
                 height: 46vw;
                 justify-content: center;
         }
-
-
 }

@@ -5,20 +5,19 @@
 }
 
 .contactSection {
-        margin: 0 200px;
+        background-color: rgb(87, 70, 105);
         padding: 20px;
 }
 
-.contactSection h3 {
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 30px;
-        color: rgb(102, 94, 94);
-        font-weight: 500;
+
+
+.contactContainer{
+        margin: 0 200px;
 }
 
+
 .contactDetails {
-        margin-top: 50px;
+        margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
@@ -36,12 +35,14 @@
 }
 
 .singleContact i {
-        font-size: 20px;
+        font-size: 25px;
+        color: #C4B16F;
 }
 
 .singleContact h1 {
         font-size: 16px;
         font-weight: normal;
+        color: white;
 }
 
 .singleContact .icons {
@@ -52,13 +53,21 @@
 
 .singleContact .icons a i {
         border: 1px solid gray;
-        color: gray;
+        color: white;
         padding: 5px;
         font-size: 12px;
 }
 
 .contactSection form {
         margin: 50px 0;
+}
+
+.contactSection form h3{
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 10px;
 }
 
 .nameEmail {
@@ -68,12 +77,17 @@
         gap: 20px;
 }
 
-.nameEmail input {
+.nameEmail input{
         width: calc(50% - 10px);
         min-width: 200px;
         height: 40px;
         padding: 3px 10px;
+        background-color: rgb(71, 56, 86);     
 }
+
+
+
+
 
 .message {
         display: flex;
@@ -86,6 +100,7 @@
         max-width: 900px;
         height: 80px;
         padding: 3px 10px;
+        background-color: rgb(71, 56, 86);   
 }
 
 .messageBtn {
@@ -95,36 +110,22 @@
 }
 
 .messageBtn button {
-        padding: 10px 15px;
+        padding: 5px 10px;
         font-size: 18px;
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
-        color: black;
+        color: white;
         background: transparent;
         border: 2px solid gray;
         position: relative;
-        overflow: hidden;
         cursor: pointer;
+        background-color: black;
 }
 
-.messageBtn button::before {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: black;
-        transition: top 0.5s ease-in-out;
-        z-index: -1;
-}
 
-.messageBtn button:hover::before {
-        top: 0;
-}
 
 .messageBtn button:hover {
-        color: white;
+        color: #C4B16F;
 }
 
 .map {
@@ -145,6 +146,7 @@
 
 footer {
         padding: 10px 0;
+        background-color: #97A8B3;
 }
 
 footer h1 {
@@ -160,8 +162,9 @@ hr{
 
 
 @media only screen and (max-width: 1099px) {
-        .contactSection {
+        .contactContainer{
                 margin: 0 50px;
+        
         }
 
         .singleContact {
@@ -171,8 +174,9 @@ hr{
 }
 
 @media only screen and (max-width: 680px) {
-        .contactSection {
+        .contactContainer{
                 margin: 0 20px;
+        
         }
 
         .nameEmail input {
