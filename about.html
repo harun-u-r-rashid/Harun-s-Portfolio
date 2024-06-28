@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harun's Portfolio</title>
+
+    <!-- fontawesom -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- google fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+    </style>
+
+    <!-- swiffy slider -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <!-- Internal link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/profile.css" />
+
+    <link rel="stylesheet" href="css/about.css" />
+
+    <link rel="stylesheet" href="css/project.css" />
+
+    <link rel="stylesheet" href="css/skill.css" />
+
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <nav id="pcNav">
+      <div class="navTitle">
+        <img src="images/portfolio.png" alt="" />
+      </div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skill.html">Skill</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="resNav">
+      <div class="navTitle">
+        <img src="images/portfolio.png" alt="" />
+      </div>
+      <div class="resMenu">
+        <div class="resIcon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menuLinks">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="skill.html" onclick="toggleMenu()">Skill</a></li>
+          <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="aboutSection">
+        <h3 class="sectionTitleOne">know more</h3>
+        <h3 class="sectionTitleTwo">about me</h3>
+
+        <div class="aboutContainer">
+          <div class="details">
+            <img src="images/biography.png" alt="" />
+            <p>
+              Welcome there! I am <span>Harunur Rashid</span>, a dedicated
+              student currently pursuing my B.Sc. in Glass and Ceramic
+              Engineering at Rajshahi University of Engineering and
+              Technology(RUET). Alongside, I am passionate about expending my
+              knowledge in <span>Computer Science and Engineering</span>, which
+              I am doing through a popular online platform
+              <span>"Phitron"</span>. I am actively learning both
+              <span>frontend and backend development</span>, which allows me to
+              create dynamic, user-friendly web applications. In my spare time,
+              I enjoy diving into various projects that sharpen my coding skills
+              and deepen my understanding of software engineering.
+            </p>
+          </div>
+
+          <div class="details">
+            <img src="images/details.png" alt="" />
+
+            <div class="allDetails">
+              <div class="singleDetails">
+                <h1>Name:</h1>
+                <h2>Harunur Rashid</h2>
+              </div>
+              <div class="singleDetails">
+                <h1>Address:</h1>
+                <h2>Rajshahi</h2>
+              </div>
+              <div class="singleDetails">
+                <h1>Study:</h1>
+                <h2>Rajshahi University of Engineering and Technology</h2>
+              </div>
+
+              <div class="singleDetails">
+                <h1>Degree:</h1>
+                <h2>Glass and Ceramic Engineering</h2>
+              </div>
+
+              <div class="singleDetails">
+                <h1>Mail:</h1>
+                <h2>hr100756@gmail.com</h2>
+              </div>
+
+              <div class="singleDetails">
+                <h1>Phone:</h1>
+                <h2>+880 1609480869</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </main>
+
+    <hr />
+    <footer>
+      <h1>&copy COPYRIGHT || HARUNUR RASHID</h1>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
