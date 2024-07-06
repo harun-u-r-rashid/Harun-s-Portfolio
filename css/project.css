@@ -7,13 +7,12 @@
   padding: 0;
 }
 
-.projectSection{
+.projectSection {
   padding: 20px 0;
   background-color: rgba(87, 70, 102, 0.948);
 }
 .projectContainer {
   margin: 0 200px;
-
 }
 .singleProject {
   padding: 20px;
@@ -27,14 +26,13 @@
   padding: 20px 0 30px 0;
 }
 
-
 .textDetails h3 {
-  color: #C4B16F;
+  color: #c4b16f;
   font-weight: 600;
 }
 
 .textDetails p {
-  color:white;
+  color: white;
   margin: 10px 0;
   font-size: 17px;
 }
@@ -45,45 +43,32 @@
   gap: 50px;
 }
 
-.projectLink .github {
+.projectLink .github, .live {
   text-decoration: none;
   border: 1px solid gray;
-  padding: 10px 15px;
-  color: white;
-  background-color: black;
+  padding: 5px 15px;
+  color: #8a9fad;
   border-radius: 30px;
   transition: all 0.5s ease-in-out;
   margin-top: 10px;
+  border: 2px solid gray;
+  font-weight: bold;
 }
 
-.projectLink .github:hover {
-  background-color: #000000c9;
-  color: white;
+.projectLink .github:hover, .live:hover {
+  color: #c4b16f;
+  cursor: pointer;
+  transform: translateY(10px);
 }
 
-
-.projectLink .live {
-  text-decoration: none;
-  border: 1px solid gray;
-  padding: 10px 15px;
-  color: black;
-  border-radius: 30px;
-  transition: all 0.5s ease-in-out;
-  margin-top: 10px;
-  background-color: white;
-}
-
-.projectLink .live:hover {
-  color: white;
-  background-color: black;
+.projectLink .github:hover{
+  transform: translateY(-10px);
 }
 
 
 @media only screen and (max-width: 780px) {
-
   .projectContainer {
     margin: 0 10px;
-
   }
 
   .projectLink {
@@ -93,28 +78,21 @@
   .projectLink .github {
     font-size: 10px;
     padding: 5px 10px;
-
   }
 
   .textDetails p {
     font-size: 15px;
   }
 
-
   .projectLink .live {
     font-size: 10px;
     padding: 5px 10px;
-
   }
-
 }
 
-
 @media only screen and (min-width: 755px) and (max-width: 1099px) {
-
   .projectContainer {
     margin: 0 100px;
-
   }
 
   .projectLink {

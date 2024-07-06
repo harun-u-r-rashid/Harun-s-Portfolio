@@ -9,15 +9,18 @@
 
 .aboutSection {
   background-image: linear-gradient(
-      rgba(68, 52, 82, 0.8),
-      rgba(68, 52, 81, 0.8)
+      rgba(68, 52, 82, 0.892),
+      rgba(68, 52, 81, 0.892)
     ),
     url("../images/aboutBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px 0;
+ height: auto;
 }
+
+
 
 .sectionTitleOne,
 .sectionTitleTwo {
@@ -160,7 +163,7 @@
 
 @media only screen and (max-width: 680px) {
   .details {
-    width: 380px;
+    width: 319px;
     padding: 5px;
   }
 
@@ -173,20 +176,24 @@
     align-items: center;
     gap: 0px;
   }
+
+  .singleDetails h1 {
+    font-size: 12px;
+    width: 80px;
+    font-weight: 500;
+  
+  }
+  
+  .singleDetails h2 {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .details p {
+    font-size: 12px;
+    
+  }
 }
 
-/* @media only screen and (min-width: 680px) and (max-width: 1099px) {
-
-  .aboutContainer {
-    display: flex;
-    justify-content: center;
-    margin: 0px 100px;
-    padding: 10px;
-    gap: 0px;
-
-  }
-
-} */
 
 @media only screen and (max-width: 1345px) {
   .aboutContainer {
